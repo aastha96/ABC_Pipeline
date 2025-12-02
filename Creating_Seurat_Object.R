@@ -6,7 +6,7 @@ library(Signac)
 library(patchwork)
 library(SeuratDisk)
 
-setwd("/Users/nxgenmdx/Genomics/abc_atlas/scripts/data/processed")
+setwd("/mnt/research/Rama_lab/Aastha_work/ABC_atlas/data/processed")
 # 1. Read the expression matrix
 counts <- ReadMtx(
   mtx = "hippocampus_expr.mtx",
