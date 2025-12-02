@@ -18,7 +18,7 @@ library(patchwork)
 
 # Working directory and data ------------------------------------------------
 
-setwd("/mnt/research/Rama_lab/Aastha_work/ABC_atlas/")
+setwd("/mnt/research/Rama_lab/Aastha_work/ABC_atlas/data/processed")
 
 abc_hip <- readRDS("seurat_hippocampus_subset.rds")
 str(abc_hip)
